@@ -13,6 +13,7 @@ def read_yaml_from_url(url):
     return yaml_data
 
 def read_list_from_url(url):
+    print(url)
     df = pd.read_csv(url, header=None, names=['pattern', 'address', 'other'], on_bad_lines='warn')
     return df
 
