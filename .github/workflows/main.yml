@@ -64,10 +64,13 @@ jobs:
           git commit -m "Update rules"
           git push
         fi
+    - name: set release date
+      run: |
+        echo "RELEASE_DATE=$(date +'%Y%m%d-%H%M%S')" >> ${GITHUB_ENV}
     - name: Publish new release for all files in rule_srs
       uses: softprops/action-gh-release@v2
       with:
-          tag_name: ${{ format('yyyyMMdd-HHmmss', github.event.created_at) }}
+          tag_name: ${{ env.RELEASE_DATE }}
           make_latest: "true"
           files: ./rule_srs/*.srs
         
