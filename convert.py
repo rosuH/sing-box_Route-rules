@@ -152,17 +152,31 @@ def parse_list_file(link, output_directory):
     os.system(f"sing-box rule-set compile --output {srs_path} {file_name}")
     return file_name
 
-with open("../source.txt", 'r') as links_file:
-    links = links_file.read().splitlines()
+if __name__ == "__main__":
+    # Clean output directories
+    output_dir = "./"
+    json_dir = os.path.join(output_dir, "rule_json")
+    srs_dir = os.path.join(output_dir, "rule_srs")
+    
+    for directory in [json_dir, srs_dir]:
+        if os.path.exists(directory):
+            for file in os.listdir(directory):
+                file_path = os.path.join(directory, file)
+                if os.path.isfile(file_path):
+                    os.remove(file_path)
+        else:
+            os.makedirs(directory)
 
-links = [l for l in links if l.strip() and not l.strip().startswith("#")]
+    with open("../source.txt", "r") as links_file:
+        links = links_file.read().splitlines()
 
-output_dir = "./"
-result_file_names = []
+    links = [l for l in links if l.strip() and not l.strip().startswith("#")]
 
-for link in links:
-    result_file_name = parse_list_file(link, output_directory=output_dir)
-    result_file_names.append(result_file_name)
+    result_file_names = []
 
-for file_name in result_file_names:
-    print(file_name)
+    for link in links:
+        result_file_name = parse_list_file(link, output_directory=output_dir)
+        result_file_names.append(result_file_name)
+
+    for file_name in result_file_names:
+        print(file_name)
