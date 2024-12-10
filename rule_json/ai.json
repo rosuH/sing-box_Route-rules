@@ -29,11 +29,11 @@
         "notebooklm.google",
         "notebooklm.google.com",
         "oaistatic.com",
-        "oaiusercontent.com",
         "openart.ai",
         "perplexity.ai",
         "poe.com",
         "proactivebackend-pa.googleapis.com",
+        "sora.com",
         "this_ruleset_is_made_by_sukkaw.ruleset.skk.moe",
         "x.ai"
       ]
@@ -67,11 +67,11 @@
         ".notebooklm.google",
         ".notebooklm.google.com",
         ".oaistatic.com",
-        ".oaiusercontent.com",
         ".openart.ai",
         ".perplexity.ai",
         ".poe.com",
         ".proactivebackend-pa.googleapis.com",
+        ".sora.com",
         ".x.ai"
       ]
     }
