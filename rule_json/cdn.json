@@ -12,6 +12,7 @@
       "domain_keyword": [
         "-files.gitbook.io",
         "-res.cloudinary.com",
+        "cdnstatic.",
         "dsn.algolia.net",
         "vod-adaptive.akamaized.net",
         "web-assets.zendesk"
