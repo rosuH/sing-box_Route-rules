@@ -137,6 +137,7 @@
         "certificate-transparency.org",
         "ch",
         "change.org",
+        "chess.com",
         "chrome.com",
         "chromeexperiments.com",
         "chromestatus.com",
@@ -438,6 +439,7 @@
         "lineshoppingseller.com",
         "linkedin.com",
         "list-manage.com",
+        "live-video.net",
         "localazy.com",
         "logto.io",
         "lol",
@@ -835,7 +837,8 @@
         "yandex.net",
         "youtube.com",
         "ytimg.com",
-        "zendesk.com"
+        "zendesk.com",
+        "zndsk.com"
       ]
     },
     {
@@ -987,6 +990,7 @@
         ".certificate-transparency.org",
         ".ch",
         ".change.org",
+        ".chess.com",
         ".chrome.com",
         ".chromeexperiments.com",
         ".chromestatus.com",
@@ -1286,6 +1290,7 @@
         ".lineshoppingseller.com",
         ".linkedin.com",
         ".list-manage.com",
+        ".live-video.net",
         ".localazy.com",
         ".logto.io",
         ".lol",
@@ -1676,7 +1681,8 @@
         ".yandex.net",
         ".youtube.com",
         ".ytimg.com",
-        ".zendesk.com"
+        ".zendesk.com",
+        ".zndsk.com"
       ]
     }
   ],
