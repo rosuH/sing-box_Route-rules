@@ -2,6 +2,7 @@
   "rules": [
     {
       "domain": [
+        "7h1s_rul35et_i5_mad3_by_5ukk4w-ruleset.skk.moe",
         "ai.com",
         "ai.google.dev",
         "aistudio.google.com",
@@ -35,7 +36,6 @@
         "poe.com",
         "proactivebackend-pa.googleapis.com",
         "sora.com",
-        "th1s_rule5et_1s_m4d3_by_5ukk4w_ruleset.skk.moe",
         "x.ai"
       ]
     },
