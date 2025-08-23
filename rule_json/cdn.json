@@ -32,12 +32,6 @@
         "vod-adaptive.akamaized.net",
         "web-assets.zendesk"
       ]
-    },
-    {
-      "domain_regex": [
-        "^http://www\\.microsoft\\.com/pki/",
-        "^http://www\\.microsoft\\.com/pkiops/"
-      ]
     }
   ],
   "version": 1

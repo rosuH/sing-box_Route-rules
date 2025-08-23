@@ -27,6 +27,12 @@
       ]
     },
     {
+      "domain_regex": [
+        "^http://www\\.microsoft\\.com/pki/",
+        "^http://www\\.microsoft\\.com/pkiops/"
+      ]
+    },
+    {
       "domain_suffix": [
         ".cn.windowssearch.com",
         ".ctldl.windowsupdate.com",
