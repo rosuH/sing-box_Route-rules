@@ -60,6 +60,7 @@
         "android.com",
         "androidify.com",
         "androidpolice.com",
+        "anilist.co",
         "animes.garden",
         "annas-archive.org",
         "ant.design",
@@ -364,6 +365,7 @@
         "gcr.io",
         "gd",
         "geekbench.com",
+        "gelbooru.com",
         "genius.com",
         "getchu.com",
         "getmdl.io",
@@ -1131,6 +1133,7 @@
         "zbporn.com",
         "zello.com",
         "zendesk.com",
+        "zerochan.net",
         "zndsk.com"
       ]
     },
@@ -1206,6 +1209,7 @@
         ".android.com",
         ".androidify.com",
         ".androidpolice.com",
+        ".anilist.co",
         ".animes.garden",
         ".annas-archive.org",
         ".ant.design",
@@ -1507,6 +1511,7 @@
         ".gcr.io",
         ".gd",
         ".geekbench.com",
+        ".gelbooru.com",
         ".genius.com",
         ".getchu.com",
         ".getmdl.io",
@@ -2267,6 +2272,7 @@
         ".zbporn.com",
         ".zello.com",
         ".zendesk.com",
+        ".zerochan.net",
         ".zndsk.com"
       ]
     }
