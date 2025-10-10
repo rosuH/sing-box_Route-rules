@@ -5,6 +5,7 @@
         "7h1s_rul35et_i5_mad3_by_5ukk4w-ruleset.skk.moe",
         "ai.com",
         "ai.google.dev",
+        "aisandbox-pa.googleapis.com",
         "aistudio.google.com",
         "alkalicore-pa.clients6.google.com",
         "anthropic.com",
@@ -37,6 +38,7 @@
         "perplexity.ai",
         "poe.com",
         "proactivebackend-pa.googleapis.com",
+        "robinfrontend-pa.googleapis.com",
         "sora.com",
         "x.ai"
       ]
