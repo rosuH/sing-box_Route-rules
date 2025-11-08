@@ -21,7 +21,6 @@
         "claude.ai",
         "clipdrop.co",
         "cloudcode-pa.googleapis.com",
-        "cp2.cloudflare.com",
         "cp4.cloudflare.com",
         "deepmind.com",
         "deepmind.google",
@@ -34,7 +33,6 @@
         "generativelanguage.googleapis.com",
         "grok.com",
         "groq.com",
-        "guzzoni.apple.com",
         "jasper.ai",
         "jules.google.com",
         "makersuite.google.com",
@@ -47,7 +45,6 @@
         "poe.com",
         "proactivebackend-pa.googleapis.com",
         "robinfrontend-pa.googleapis.com",
-        "smoot.apple.com",
         "sora.com",
         "x.ai"
       ]
@@ -89,7 +86,6 @@
         ".perplexity.ai",
         ".poe.com",
         ".proactivebackend-pa.googleapis.com",
-        ".smoot.apple.com",
         ".sora.com",
         ".x.ai"
       ]
