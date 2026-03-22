@@ -58,6 +58,11 @@
       ]
     },
     {
+      "domain_regex": [
+        "https://www\\.google\\.com/.*continue=https://gemini\\.google\\.com.+"
+      ]
+    },
+    {
       "domain_suffix": [
         ".ai.com",
         ".aistudio.google.com",
